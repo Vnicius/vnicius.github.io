@@ -1,0 +1,14 @@
+.name {
+  font-family: Clarendon;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  letter-spacing: 0.045em;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 770px) {
+  .name {
+    font-size: 14vw;
+  }
+}

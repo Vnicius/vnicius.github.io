@@ -1,0 +1,13 @@
+.title {
+  font-family: "BodoniPosterItalic";
+  font-size: 64px;
+  letter-spacing: 0.045em;
+  margin-top: 75px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 770px) {
+  .title {
+    font-size: 10vw;
+  }
+}

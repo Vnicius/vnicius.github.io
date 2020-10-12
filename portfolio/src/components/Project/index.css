@@ -1,0 +1,66 @@
+.project-container {
+  background-color: #232323;
+  padding: 32px;
+  width: 100%;
+  margin-top: 42px;
+  justify-content: left;
+}
+
+.project-image {
+  width: 200px;
+  height: 100%;
+  float: left;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.project-description-container {
+}
+
+.project-title {
+  font-family: Clarendon;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+
+.project-description {
+  font-family: Clarendon;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.045em;
+  color: #ffffff;
+}
+
+.project-source-logo {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 770px) {
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .project-description-container {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 10vw;
+  }
+
+  .project-description {
+    font-size: 5vw;
+    line-height: 5vw;
+    padding-right: 20px;
+  }
+}
