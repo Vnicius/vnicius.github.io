@@ -19,7 +19,7 @@ const IndexPage = () => {
     query {
       avatarImage: file(relativePath: { eq: "photo.jpg" }) {
         childImageSharp {
-          fluid {
+          fluid(quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
