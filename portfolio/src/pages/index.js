@@ -161,7 +161,17 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <footer className="content-section">
+      <footer
+        className="content-section"
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginLeft: "0px",
+          marginRight: "0px",
+        }}
+      >
         <Img
           className="footer-image"
           fluid={data.footerImage.childImageSharp.fluid}

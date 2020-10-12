@@ -42,10 +42,16 @@
 
 @media (max-width: 770px) {
   .project-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .project-image {
+    float: none;
+    display: block;
   }
 
   .project-description-container {
