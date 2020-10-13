@@ -40,6 +40,9 @@ const NotFoundPage = () => {
           style={{
             width: "100%",
             margin: "0px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
           }}
         >
           <Img
